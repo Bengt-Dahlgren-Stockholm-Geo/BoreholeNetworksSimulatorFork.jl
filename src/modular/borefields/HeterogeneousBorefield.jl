@@ -3,7 +3,7 @@
     boreholes::Vector{Borehole}
     positions::Vector{Tuple{S, S}}
     Nb::Int = length(positions)
-    initial_ΔT::Vector{S} = zeros(S, Nb)
+    initial_ΔT::Vector{S} = zeros(Nb)
 end
 
 n_boreholes(bf::HeterogeneousBorefield) = bf.Nb
