@@ -58,7 +58,7 @@ containers = @time initialize(options)
     activation_step::Int
 end
 
-function BoreholeNetworksSimulator.operate(op::StepOperator, step, options, X)
+function BoreholeNetworksSimulatorFork.operate(op::StepOperator, step, options, X)
     @unpack mass_flows, activation_step, mass_flow_containers = op
     after_step = step >= activation_step
     active_configuration = after_step ? 2 : 1
