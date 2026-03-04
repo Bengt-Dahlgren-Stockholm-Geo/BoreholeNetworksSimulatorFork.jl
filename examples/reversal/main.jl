@@ -1,4 +1,4 @@
-using BoreholeNetworksSimulator
+using BoreholeNetworksSimulatorFork
 using BNSPlots
 using Graphs
 using WGLMakie
@@ -49,7 +49,7 @@ struct ReversalStrategy
     Q_tot
 end
 
-function BoreholeNetworksSimulator.operate(op::ReversalStrategy, step, options, X)
+function BoreholeNetworksSimulatorFork.operate(op::ReversalStrategy, step, options, X)
     @unpack Q_tot, mass_flows = op
     active_configuration = floor((step + 3*30) / (6*30)) % 2 == 0 ? 1 : 2
     injection = floor((step) / (6*30)) % 2 == 0 ? -1 : 1

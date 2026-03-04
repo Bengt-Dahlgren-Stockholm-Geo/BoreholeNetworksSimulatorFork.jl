@@ -1,6 +1,6 @@
 using Pkg
 
-geothermal_registry = "https://github.com/marcbasquensmunoz/geothermal_registry"
+geothermal_registry = "https://github.com/Bengt-Dahlgren-Stockholm-Geo/geothermal_registryFork"
 
 project_directory = joinpath(@__DIR__, "..")
 documenter_directory = isempty(ARGS) ? @__DIR__() : joinpath(pwd(), ARGS[1])

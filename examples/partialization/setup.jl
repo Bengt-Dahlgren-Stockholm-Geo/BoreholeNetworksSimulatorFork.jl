@@ -1,4 +1,4 @@
-using BoreholeNetworksSimulator
+using BoreholeNetworksSimulatorFork
 using BNSPlots
 using Graphs
 using WGLMakie

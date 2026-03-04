@@ -1,6 +1,6 @@
 using PythonCall
 using CondaPkg
-using BoreholeNetworksSimulator
+using BoreholeNetworksSimulatorFork
 using Statistics
 CondaPkg.add("pygfunction")
 

@@ -1,4 +1,4 @@
-using BoreholeNetworksSimulator
+using BoreholeNetworksSimulatorFork
 using BNSPlots
 using BNSPlots: get_Tfin, get_Tfout, get_Tb, get_q, get_mf
 using Graphs

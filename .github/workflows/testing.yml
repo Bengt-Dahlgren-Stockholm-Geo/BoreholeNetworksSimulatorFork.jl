@@ -28,6 +28,6 @@ jobs:
           arch: ${{ matrix.arch }}
       - uses: julia-actions/cache@v2
       - name: Add registries
-        run: julia -e 'using Pkg; Pkg.Registry.add(RegistrySpec(url="https://github.com/marcbasquensmunoz/geothermal_registry")); Pkg.Registry.add("General")'
+        run: julia -e 'using Pkg; Pkg.Registry.add(RegistrySpec(url="https://github.com/Bengt-Dahlgren-Stockholm-Geo/geothermal_registryFork")); Pkg.Registry.add("General")'
       - uses: julia-actions/julia-buildpkg@v1
       - uses: julia-actions/julia-runtest@v1

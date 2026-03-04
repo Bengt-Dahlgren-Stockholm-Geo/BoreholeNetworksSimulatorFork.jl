@@ -17,7 +17,7 @@ retrofitted — e.g., upgrading a residential heat pump system by adding more bo
 or scaling up a prototype borehole thermal storage system.
 """
 
-using BoreholeNetworksSimulator
+using BoreholeNetworksSimulatorFork
 using BNSPlots
 using Parameters
 using Statistics

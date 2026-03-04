@@ -10,7 +10,7 @@
 # with both the convolution and the non-history time superposition methods.
 # Let us define an example, very similar to [Basic tutorial](@ref)
 
-using BoreholeNetworksSimulator
+using BoreholeNetworksSimulatorFork
 
 #
 

@@ -9,7 +9,7 @@ include("setup.jl")
     mass_flow_containers::Vector{T}
 end
 
-function BoreholeNetworksSimulator.operate(operator::TemperatureDifferencePartializationStrategy, step, options, X)
+function BoreholeNetworksSimulatorFork.operate(operator::TemperatureDifferencePartializationStrategy, step, options, X)
     @unpack mass_flow, Tb_diff, mass_flow_containers, current_bh = operator
 
     if step != 1    

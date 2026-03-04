@@ -1,6 +1,6 @@
 cd(@__DIR__)
 import Pkg; Pkg.activate(@__DIR__); Pkg.update(); Pkg.instantiate()
-using Documenter, Literate, BoreholeNetworksSimulator, BNSPlots
+using Documenter, Literate, BoreholeNetworksSimulatorFork , BNSPlots
 
 pages = [
     "Introduction" => "index.md",
@@ -21,7 +21,7 @@ Literate.markdown("$dir/src/tutorial.jl", "$dir/src")
 Literate.markdown("$dir/src/nonhistory.jl", "$dir/src")
 makedocs(
     pages = pages,
-    sitename = "BoreholeNetworksSimulator.jl"
+    sitename = "BoreholeNetworksSimulatorFork.jl"
 )
 deploydocs(
     repo = "github.com/marcbasquensmunoz/BoreholeNetworksSimulator.jl.git"

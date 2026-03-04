@@ -14,7 +14,7 @@ jlPkg.activate(jl.pyconvert(jl.String, project_dir))
 jlPkg.resolve()
 jlPkg.instantiate()
 jl.seval("using BNSPythonAdapter")
-jl.seval("using BoreholeNetworksSimulator")
+jl.seval("using BoreholeNetworksSimulatorFork")
 
 import numpy as np
 

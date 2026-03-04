@@ -1,4 +1,4 @@
-using BoreholeNetworksSimulator
+using BoreholeNetworksSimulatorFork
 using Colors
 using Dates
 using WGLMakie

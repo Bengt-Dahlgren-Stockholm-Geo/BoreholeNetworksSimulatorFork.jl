@@ -1,4 +1,4 @@
-using BoreholeNetworksSimulator
+using BoreholeNetworksSimulatorFork
 using CairoMakie
 include("make_figure.jl")
 include("pygfunction_heat.jl")

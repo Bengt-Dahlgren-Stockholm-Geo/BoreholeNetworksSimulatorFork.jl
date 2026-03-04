@@ -1,7 +1,7 @@
 module BNSPythonAdapter
 
 using PythonCall
-using BoreholeNetworksSimulator
+using BoreholeNetworksSimulatorFork
 
 include("adapter.jl")
 
