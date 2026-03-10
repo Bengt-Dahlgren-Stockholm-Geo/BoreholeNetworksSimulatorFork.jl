@@ -1,7 +1,7 @@
 name = "BoreholeNetworksSimulatorFork"
 uuid = "431bfe26-12a0-427e-b7e0-4e56bb62bb39"
 authors = ["Marc Basquens <marc5@kth.se>", "Alberto Lazzarotto <alberto.lazzarotto84@gmail.com>", "Maria Letizia Fascì <letizia.fasci@bengtdahlgren.se>"]
-version = "0.2.2"
+version = "0.2.3"
 
 [deps]
 Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"
